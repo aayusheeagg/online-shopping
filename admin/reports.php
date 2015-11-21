@@ -154,7 +154,7 @@ margin-left: 15px;
 <td style="text-align:center; word-break:break-all; width:200px; line-height: 45px;"> <?php echo $row ['address']; ?></td>
 <td style="text-align:center; word-break:break-all; width:50px; line-height: 45px;"> <?php echo $row ['shippers']; ?></td>
 <td style="text-align:center; word-break:break-all; width:200px; line-height: 45px;"> <?php echo $row ['date']; ?></td>
-<td style="text-align:center; word-break:break-all; width:200px; line-height: 45px;"> Php <?php $oprice=$row['total']; echo formatMoney($oprice, true);?></td>
+<td style="text-align:center; word-break:break-all; width:200px; line-height: 45px;"> Rs. <?php $oprice=$row['total']; echo formatMoney($oprice, true);?></td>
 
 		<!-- Modal -->
 <div id="<?php  echo $id;?>" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

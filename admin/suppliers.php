@@ -165,12 +165,9 @@ margin-left: 15px;
 <table style="width:100%; margin:auto;" class="table table-hover table-striped" id="example">
 <caption><div class="pagination">
   <ul>
-    <li class="active"><a href="suppliers.php"><font color="#000000">All</font></a></li>
-    <li><a href="supplier_samsung.php"><font color="#000000">Samsung</font></a></li>
-    <li><a href="supplier_alcatel.php"><font color="#000000">Alcatel</font></a></li>
-    <li><a href="supplier_nokia.php"><font color="#000000">Nokia</font></a></li>
-    <li><a href="supplier_cherry_mobile.php"><font color="#000000">Cherry Mobile</font></a></li>
-    <li ><a href="supplier_my_phone.php"><font color="#000000">Myphone</a></font></li>
+    <li class="active"><a href="products.php"><font color="#000000">All</font></a></li>
+    <li><a href="samsung.php"><font color="#000000">Samsung</font></a></li>   
+    <li><a href="nokia.php"><font color="#000000">Nokia</font></a></li>
   </ul>
 </div></caption>
 

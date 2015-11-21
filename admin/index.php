@@ -46,7 +46,7 @@
 									{
 										session_start();
 										$_SESSION['id'] = $row['admin_id'];
-										header("location:home.php");
+										header("location:products.php");
 									}
 						}				
 						}

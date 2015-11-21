@@ -167,7 +167,7 @@ $product_id=$row['product_id'];
 					</table>
 <?php 
 }
-?>?>
+?>
 	  </div>
     </div>
     <div id="content_footer"></div>

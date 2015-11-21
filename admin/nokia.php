@@ -231,12 +231,9 @@ margin-left: 15px;
 <table style="width:100%; margin:auto;" class="table table-hover table-striped" id="example">
 <caption><div class="pagination">
   <ul>
-    <li><a href="products.php"><font color="#000000">All</font></a></li>
-    <li><a href="samsung.php"><font color="#000000">Samsung</font></a></li>
-    <li><a href="alcatel.php"><font color="#000000">Alcatel</font></a></li>
-    <li class="active"><a href="nokia.php"><font color="#000000">Nokia</font></a></li>
-    <li><a href="cherry_mobile.php"><font color="#000000">Cherry Mobile</font></a></li>
-    <li><a href="my_phone.php"><font color="#000000">Myphone</a></font></li>
+    <li class="active"><a href="products.php"><font color="#000000">All</font></a></li>
+    <li><a href="samsung.php"><font color="#000000">Samsung</font></a></li>   
+    <li><a href="nokia.php"><font color="#000000">Nokia</font></a></li>
    
   </ul>
 </div></caption>
@@ -251,7 +248,6 @@ margin-left: 15px;
 <th style="text-align:center; width:445px;">Description</th>
 <th style="text-align:center; width:200px;">Price</th>
 <th style="text-align:center; width:200px;">Supplier</th>
-<th style="text-align:center; width:150px;">Status</th>
 <th style="text-align:center;">Action</th>
 
 </tr>
@@ -286,9 +282,8 @@ $id=$row['product_id'];
 <td style="text-align:center; word-break:break-all; width:200px;"> <?php echo $row ['product_brand']; ?></td>
 <td style="text-align:center; word-break:break-all; width:200px;"> <?php echo $row ['product_type']; ?></td>
 <td style="text-align:center; word-break:break-all; width:445px;"> <?php echo $row ['product_description']; ?></td>
-<td style="text-align:center; word-break:break-all; width:200px;">Php <?php $oprice=$row['product_price']; echo formatMoney($oprice, true);?></td>
+<td style="text-align:center; word-break:break-all; width:200px;">Rs. <?php $oprice=$row['product_price']; echo formatMoney($oprice, true);?></td>
 <td style="text-align:center; word-break:break-all; width:200px;"> <?php echo $row ['supplier']; ?></td>
-<td style="text-align:center; word-break:break-all; width:120px;"> <?php echo $row ['product_status']; ?></td>
 
 <td style="text-align:center; width:236px;"> 
 	<a href="edit_products.php<?php echo '?product_id='.$id; ?>" class="btn btn-info" style="text-decoration:none; text-align:center;">Edit</a>
